@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE72AC9F194ADA7A0005A7E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72AC9E194ADA7A0005A7E7 /* Foundation.framework */; };
+		CE72ACA1194ADA7A0005A7E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACA0194ADA7A0005A7E7 /* CoreGraphics.framework */; };
+		CE72ACA3194ADA7A0005A7E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACA2194ADA7A0005A7E7 /* UIKit.framework */; };
+		CE72ACA5194ADA7A0005A7E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACA4194ADA7A0005A7E7 /* CoreData.framework */; };
+		CE72ACAB194ADA7A0005A7E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE72ACA9194ADA7A0005A7E7 /* InfoPlist.strings */; };
+		CE72ACAD194ADA7A0005A7E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACAC194ADA7A0005A7E7 /* main.m */; };
+		CE72ACB1194ADA7A0005A7E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACB0194ADA7A0005A7E7 /* AppDelegate.m */; };
+		CE72ACB4194ADA7A0005A7E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE72ACB2194ADA7A0005A7E7 /* Main.storyboard */; };
+		CE72ACB7194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACB5194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodeld */; };
+		CE72ACBA194ADA7A0005A7E7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACB9194ADA7A0005A7E7 /* MasterViewController.m */; };
+		CE72ACBD194ADA7A0005A7E7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACBC194ADA7A0005A7E7 /* DetailViewController.m */; };
+		CE72ACBF194ADA7A0005A7E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE72ACBE194ADA7A0005A7E7 /* Images.xcassets */; };
+		CE72ACC6194ADA7A0005A7E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACC5194ADA7A0005A7E7 /* XCTest.framework */; };
+		CE72ACC7194ADA7A0005A7E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72AC9E194ADA7A0005A7E7 /* Foundation.framework */; };
+		CE72ACC8194ADA7A0005A7E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACA2194ADA7A0005A7E7 /* UIKit.framework */; };
+		CE72ACC9194ADA7A0005A7E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72ACA4194ADA7A0005A7E7 /* CoreData.framework */; };
+		CE72ACD1194ADA7A0005A7E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE72ACCF194ADA7A0005A7E7 /* InfoPlist.strings */; };
+		CE72ACD3194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACD2194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.m */; };
+		CE72ACDF194ADADA0005A7E7 /* UIAlertView+ZLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72ACDE194ADADA0005A7E7 /* UIAlertView+ZLBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE72ACCA194ADA7A0005A7E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE72AC93194ADA7A0005A7E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE72AC9A194ADA7A0005A7E7;
+			remoteInfo = ZLBlockUIAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE72AC9B194ADA7A0005A7E7 /* ZLBlockUIAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLBlockUIAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72AC9E194ADA7A0005A7E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE72ACA0194ADA7A0005A7E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE72ACA2194ADA7A0005A7E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE72ACA4194ADA7A0005A7E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE72ACA8194ADA7A0005A7E7 /* ZLBlockUIAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLBlockUIAlertView-Info.plist"; sourceTree = "<group>"; };
+		CE72ACAA194ADA7A0005A7E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE72ACAC194ADA7A0005A7E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE72ACAE194ADA7A0005A7E7 /* ZLBlockUIAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLBlockUIAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		CE72ACAF194ADA7A0005A7E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE72ACB0194ADA7A0005A7E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE72ACB3194ADA7A0005A7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE72ACB6194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZLBlockUIAlertView.xcdatamodel; sourceTree = "<group>"; };
+		CE72ACB8194ADA7A0005A7E7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CE72ACB9194ADA7A0005A7E7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CE72ACBB194ADA7A0005A7E7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE72ACBC194ADA7A0005A7E7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CE72ACBE194ADA7A0005A7E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE72ACC4194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLBlockUIAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72ACC5194ADA7A0005A7E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE72ACCE194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLBlockUIAlertViewTests-Info.plist"; sourceTree = "<group>"; };
+		CE72ACD0194ADA7A0005A7E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE72ACD2194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlockUIAlertViewTests.m; sourceTree = "<group>"; };
+		CE72ACDD194ADADA0005A7E7 /* UIAlertView+ZLBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+ZLBlocks.h"; path = "UIAlertView+ZLBlocks/UIAlertView+ZLBlocks.h"; sourceTree = "<group>"; };
+		CE72ACDE194ADADA0005A7E7 /* UIAlertView+ZLBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+ZLBlocks.m"; path = "UIAlertView+ZLBlocks/UIAlertView+ZLBlocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE72AC98194ADA7A0005A7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACA1194ADA7A0005A7E7 /* CoreGraphics.framework in Frameworks */,
+				CE72ACA5194ADA7A0005A7E7 /* CoreData.framework in Frameworks */,
+				CE72ACA3194ADA7A0005A7E7 /* UIKit.framework in Frameworks */,
+				CE72AC9F194ADA7A0005A7E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72ACC1194ADA7A0005A7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACC6194ADA7A0005A7E7 /* XCTest.framework in Frameworks */,
+				CE72ACC9194ADA7A0005A7E7 /* CoreData.framework in Frameworks */,
+				CE72ACC8194ADA7A0005A7E7 /* UIKit.framework in Frameworks */,
+				CE72ACC7194ADA7A0005A7E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE72AC92194ADA7A0005A7E7 = {
+			isa = PBXGroup;
+			children = (
+				CE72ACA6194ADA7A0005A7E7 /* ZLBlockUIAlertView */,
+				CE72ACCC194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests */,
+				CE72AC9D194ADA7A0005A7E7 /* Frameworks */,
+				CE72AC9C194ADA7A0005A7E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE72AC9C194ADA7A0005A7E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE72AC9B194ADA7A0005A7E7 /* ZLBlockUIAlertView.app */,
+				CE72ACC4194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE72AC9D194ADA7A0005A7E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE72AC9E194ADA7A0005A7E7 /* Foundation.framework */,
+				CE72ACA0194ADA7A0005A7E7 /* CoreGraphics.framework */,
+				CE72ACA2194ADA7A0005A7E7 /* UIKit.framework */,
+				CE72ACA4194ADA7A0005A7E7 /* CoreData.framework */,
+				CE72ACC5194ADA7A0005A7E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE72ACA6194ADA7A0005A7E7 /* ZLBlockUIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CE72ACAF194ADA7A0005A7E7 /* AppDelegate.h */,
+				CE72ACB0194ADA7A0005A7E7 /* AppDelegate.m */,
+				CE72ACB2194ADA7A0005A7E7 /* Main.storyboard */,
+				CE72ACB8194ADA7A0005A7E7 /* MasterViewController.h */,
+				CE72ACB9194ADA7A0005A7E7 /* MasterViewController.m */,
+				CE72ACBB194ADA7A0005A7E7 /* DetailViewController.h */,
+				CE72ACBC194ADA7A0005A7E7 /* DetailViewController.m */,
+				CE72ACBE194ADA7A0005A7E7 /* Images.xcassets */,
+				CE72ACB5194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodeld */,
+				CE72ACA7194ADA7A0005A7E7 /* Supporting Files */,
+			);
+			path = ZLBlockUIAlertView;
+			sourceTree = "<group>";
+		};
+		CE72ACA7194ADA7A0005A7E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE72ACDC194ADA920005A7E7 /* UIAlertView+Blocks */,
+				CE72ACA8194ADA7A0005A7E7 /* ZLBlockUIAlertView-Info.plist */,
+				CE72ACA9194ADA7A0005A7E7 /* InfoPlist.strings */,
+				CE72ACAC194ADA7A0005A7E7 /* main.m */,
+				CE72ACAE194ADA7A0005A7E7 /* ZLBlockUIAlertView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE72ACCC194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE72ACD2194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.m */,
+				CE72ACCD194ADA7A0005A7E7 /* Supporting Files */,
+			);
+			path = ZLBlockUIAlertViewTests;
+			sourceTree = "<group>";
+		};
+		CE72ACCD194ADA7A0005A7E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE72ACCE194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests-Info.plist */,
+				CE72ACCF194ADA7A0005A7E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE72ACDC194ADA920005A7E7 /* UIAlertView+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE72ACDD194ADADA0005A7E7 /* UIAlertView+ZLBlocks.h */,
+				CE72ACDE194ADADA0005A7E7 /* UIAlertView+ZLBlocks.m */,
+			);
+			name = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE72AC9A194ADA7A0005A7E7 /* ZLBlockUIAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72ACD6194ADA7A0005A7E7 /* Build configuration list for PBXNativeTarget "ZLBlockUIAlertView" */;
+			buildPhases = (
+				CE72AC97194ADA7A0005A7E7 /* Sources */,
+				CE72AC98194ADA7A0005A7E7 /* Frameworks */,
+				CE72AC99194ADA7A0005A7E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLBlockUIAlertView;
+			productName = ZLBlockUIAlertView;
+			productReference = CE72AC9B194ADA7A0005A7E7 /* ZLBlockUIAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE72ACC3194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72ACD9194ADA7A0005A7E7 /* Build configuration list for PBXNativeTarget "ZLBlockUIAlertViewTests" */;
+			buildPhases = (
+				CE72ACC0194ADA7A0005A7E7 /* Sources */,
+				CE72ACC1194ADA7A0005A7E7 /* Frameworks */,
+				CE72ACC2194ADA7A0005A7E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE72ACCB194ADA7A0005A7E7 /* PBXTargetDependency */,
+			);
+			name = ZLBlockUIAlertViewTests;
+			productName = ZLBlockUIAlertViewTests;
+			productReference = CE72ACC4194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE72AC93194ADA7A0005A7E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lzheng;
+				TargetAttributes = {
+					CE72ACC3194ADA7A0005A7E7 = {
+						TestTargetID = CE72AC9A194ADA7A0005A7E7;
+					};
+				};
+			};
+			buildConfigurationList = CE72AC96194ADA7A0005A7E7 /* Build configuration list for PBXProject "ZLBlockUIAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE72AC92194ADA7A0005A7E7;
+			productRefGroup = CE72AC9C194ADA7A0005A7E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE72AC9A194ADA7A0005A7E7 /* ZLBlockUIAlertView */,
+				CE72ACC3194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE72AC99194ADA7A0005A7E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACBF194ADA7A0005A7E7 /* Images.xcassets in Resources */,
+				CE72ACAB194ADA7A0005A7E7 /* InfoPlist.strings in Resources */,
+				CE72ACB4194ADA7A0005A7E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72ACC2194ADA7A0005A7E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACD1194ADA7A0005A7E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE72AC97194ADA7A0005A7E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACBD194ADA7A0005A7E7 /* DetailViewController.m in Sources */,
+				CE72ACBA194ADA7A0005A7E7 /* MasterViewController.m in Sources */,
+				CE72ACB1194ADA7A0005A7E7 /* AppDelegate.m in Sources */,
+				CE72ACAD194ADA7A0005A7E7 /* main.m in Sources */,
+				CE72ACB7194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodeld in Sources */,
+				CE72ACDF194ADADA0005A7E7 /* UIAlertView+ZLBlocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72ACC0194ADA7A0005A7E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72ACD3194ADA7A0005A7E7 /* ZLBlockUIAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE72ACCB194ADA7A0005A7E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE72AC9A194ADA7A0005A7E7 /* ZLBlockUIAlertView */;
+			targetProxy = CE72ACCA194ADA7A0005A7E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE72ACA9194ADA7A0005A7E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE72ACAA194ADA7A0005A7E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE72ACB2194ADA7A0005A7E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE72ACB3194ADA7A0005A7E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE72ACCF194ADA7A0005A7E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE72ACD0194ADA7A0005A7E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE72ACD4194ADA7A0005A7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE72ACD5194ADA7A0005A7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE72ACD7194ADA7A0005A7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLBlockUIAlertView/ZLBlockUIAlertView-Prefix.pch";
+				INFOPLIST_FILE = "ZLBlockUIAlertView/ZLBlockUIAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE72ACD8194ADA7A0005A7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLBlockUIAlertView/ZLBlockUIAlertView-Prefix.pch";
+				INFOPLIST_FILE = "ZLBlockUIAlertView/ZLBlockUIAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE72ACDA194ADA7A0005A7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLBlockUIAlertView.app/ZLBlockUIAlertView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLBlockUIAlertView/ZLBlockUIAlertView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZLBlockUIAlertViewTests/ZLBlockUIAlertViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE72ACDB194ADA7A0005A7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZLBlockUIAlertView.app/ZLBlockUIAlertView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLBlockUIAlertView/ZLBlockUIAlertView-Prefix.pch";
+				INFOPLIST_FILE = "ZLBlockUIAlertViewTests/ZLBlockUIAlertViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE72AC96194ADA7A0005A7E7 /* Build configuration list for PBXProject "ZLBlockUIAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72ACD4194ADA7A0005A7E7 /* Debug */,
+				CE72ACD5194ADA7A0005A7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72ACD6194ADA7A0005A7E7 /* Build configuration list for PBXNativeTarget "ZLBlockUIAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72ACD7194ADA7A0005A7E7 /* Debug */,
+				CE72ACD8194ADA7A0005A7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE72ACD9194ADA7A0005A7E7 /* Build configuration list for PBXNativeTarget "ZLBlockUIAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72ACDA194ADA7A0005A7E7 /* Debug */,
+				CE72ACDB194ADA7A0005A7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE72ACB5194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE72ACB6194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodel */,
+			);
+			currentVersion = CE72ACB6194ADA7A0005A7E7 /* ZLBlockUIAlertView.xcdatamodel */;
+			path = ZLBlockUIAlertView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE72AC93194ADA7A0005A7E7 /* Project object */;
+}
