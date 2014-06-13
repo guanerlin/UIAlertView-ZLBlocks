@@ -1,6 +1,18 @@
-UIAlertView+ZLBlocks 是练习Objective-c runtime写的,使用这个类别可以不使用delegate方式,轻松使用block方式处理UIAlertView各种代理方法,当然考虑到可能会既使用block又实现delegate,(谁知道有什么蹩脚的需求…),封装了既调用block也会判断是否存在delegate,并自动调用.
+User block way not delegate with UIAlertView
 
-如果发现问题,请及时pull request
-thank you
+Who need it
+If you use UIAlertView but not want use delegate,you like to use blocks to make code more convenient 
 
--delphi9527
+
+How To Use:
+1.Add UIAlertView+ZLBlocks folder into your project
+2.Import UIAlertView+ZLBlocks.h file 
+3.eg:
+UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"hello runtime" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Other button",nil];
+    alert.alertViewClickedButtonAtIndexBlock = ^(UIAlertView *alert ,NSUInteger index) {
+        NSLog(@"alert view block called successfully!!!");
+    };
+    
+    [alert show];
+
+That’s it.
