@@ -49,7 +49,7 @@
 }
 
 - (IBAction)clickedButton:(id)sender {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"hello runtime" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Other button",nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"hello runtime" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:@"Other button",nil];
     alert.alertViewClickedButtonAtIndexBlock = ^(UIAlertView *alert ,NSUInteger index) {
         NSLog(@"alert view block called successfully!!!");
     };

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0D7743A-1899-4B1A-B7ED-67FD4DAFFCF1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZLBlockUIAlertView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13ED2132-7111-4555-9C53-592B4EA790CA</key>
+		<string>https://github.com/delphi29527/UIAlertView-ZLBlocks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZLBlockUIAlertView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13ED2132-7111-4555-9C53-592B4EA790CA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/delphi29527/UIAlertView-ZLBlocks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13ED2132-7111-4555-9C53-592B4EA790CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13ED2132-7111-4555-9C53-592B4EA790CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIAlertView-ZLBlocks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
