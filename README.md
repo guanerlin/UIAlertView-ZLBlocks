@@ -1,12 +1,11 @@
-##Use block other than delegate with UIAlertView
+Use block other than delegate with UIAlertView
 
 
+Who need it
+If you are using UIAlertView but not want to use delegate,you would like to use blocks to make code more convenient 
 
-###Who need it
-If you use UIAlertView but not want use delegate,you like to use blocks to make code more convenient 
 
-
-###How To Use:
+How To Use:
 * 1.Add UIAlertView+ZLBlocks folder into your project
 * 2.Import UIAlertView+ZLBlocks.h file 
 
