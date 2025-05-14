@@ -16,6 +16,7 @@ How To Use:
         NSLog(@"alert view block called successfully!!!");
     };
     
-    [alert show];```
-
+    [alert show];
+```
+  
 That’s it.
