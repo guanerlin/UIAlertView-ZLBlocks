@@ -1,4 +1,4 @@
-##User block way not delegate with UIAlertView
+##Use block other than delegate with UIAlertView
 
 
 
